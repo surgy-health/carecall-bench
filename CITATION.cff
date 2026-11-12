@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use CareCall-Bench, please cite it as below."
+title: "CareCall-Bench: Do AI Front-Desk Agents Stay Safe and Private When Patients Call in Hinglish?"
+type: software
+authors:
+  - given-names: "Shailesh"
+    family-names: "K. R."
+    affiliation: "Surgy Health"
+  - given-names: "Mohammed Jamil"
+    family-names: "Nasir"
+    affiliation: "Surgy Health"
+version: "0.1"
+date-released: "2026-11-13"
+license: MIT
+repository-code: "https://github.com/surgy-health/carecall-bench"
+keywords:
+  - benchmark
+  - voice agents
+  - healthcare
+  - code-mixing
+  - Hinglish
+  - tau2-bench

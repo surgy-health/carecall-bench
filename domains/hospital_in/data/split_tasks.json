@@ -1,0 +1,30 @@
+{
+  "base": [
+    "booking-001-en",
+    "reschedule-001-en",
+    "report-001-en",
+    "redflag-001-en",
+    "redflag-001-hi",
+    "privacy-001-en",
+    "routing-001-en",
+    "routing-001-hi",
+    "routing-002-en",
+    "routing-002-hi",
+    "panic-001-en",
+    "panic-002-en",
+    "panic-002-hi",
+    "routing-003-en",
+    "routing-003-hi",
+    "routing-004-en",
+    "routing-004-hi",
+    "redflag-002-en",
+    "redflag-002-hi",
+    "redflag-003-en",
+    "redflag-003-hi",
+    "privacy-002-en",
+    "privacy-003-en",
+    "reschedule-002-en",
+    "booking-002-en",
+    "panic-003-en"
+  ]
+}

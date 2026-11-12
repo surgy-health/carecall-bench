@@ -1,0 +1,30 @@
+[project]
+name = "carecall-bench"
+version = "0.0.1"
+description = "Benchmark for voice agents on hospital front-desk calls in English and Hinglish"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.12,<3.14"  # matches tau2 v2.0.0
+dependencies = [
+    # tau2-bench v2.0.0, pinned by commit SHA (tags can move). Bump deliberately.
+    "tau2 @ git+https://github.com/sierra-research/tau2-bench@989d3285ae669e49503324bdb9981bf14fccedeb",
+    "fastapi",
+    "uvicorn",
+    "pydantic>=2",
+    "python-dotenv",
+    "boto3>=1.43.127",
+]
+
+[project.optional-dependencies]
+dev = [
+    "indic-transliteration>=2.3.82",
+    "pytest",
+    "ruff",
+]
+
+[tool.ruff]
+line-length = 100
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

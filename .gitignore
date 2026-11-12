@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Secrets
+.env
+
+# Run outputs and generated audio (never commit)
+runs/
+*.wav
+*.mp3
+*.flac
+*.opus
+
+# Pinned tau2-bench data checkout (see README: Setup)
+third_party/
+
+# Held-out private split (kept outside the public repo)
+data/private/
+
+# Local DBs
+*.sqlite
+*.db
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Paper build
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/*.bbl
+paper/*.blg
+paper/*.pdf
+
+# Internal planning PDFs (budgets, not for the public repo)
+docs/plans/
